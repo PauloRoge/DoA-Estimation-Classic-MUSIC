@@ -1,19 +1,20 @@
 # Classic-MUSIC
 
-Este repositório contém a implementação do algoritmo **MUSIC (Multiple Signal Classification)** para estimar ângulos de chegada (AoA) em sistemas MIMO. O MUSIC clássico assume que o número de fontes é conhecido a priori; então para esse projeto implementamos critérios para estimar.
-## 📌 Características
-- Design do Array de antenas; ULA.
-- Cenário; free space com Line-of-Sight.
-- Sistema; MIMO, M-MIMO.
+This repository contains the implementation of the **MUSIC (Multiple Signal Classification)** algorithm for estimating the Angle of Arrival (AoA) in MIMO systems. Classic MUSIC assumes that the number of sources is known a priori; therefore, in this project, we implemented criteria to estimate it.
 
-## 📌 Descrição dos Arquivos
+## 📌 Features
+- Antenna Array Design: ULA.
+- Scenario: Free space with Line-of-Sight.
+- System: MIMO, M-MIMO.
 
-| Arquivo               | Descrição |
-|----------------------|-------------------------------------------|
-| `main.m`            | Script principal do algoritmo MUSIC       |
-| `signals.m`         | Gera/processa sinais                      |
-| `responsearray.m`   | Define a matriz de resposta do array      |
-| `aic_estimation.m`  | Implementa o critério AIC                 |
-| `gap_estimation.m`  | Implementa o critério de separação natural  |
-| `mdl_estimation.m`  | Implementa o critério MDL                 |
-| `music.m`          | Implementação do algoritmo MUSIC          |
+## 📌 File Description
+
+| File                 | Description                                  |
+|----------------------|----------------------------------------------|
+| `main.m`            | Main script for the MUSIC algorithm          |
+| `signals.m`         | Generates/processes signals                  |
+| `responsearray.m`   | Defines the array response matrix            |
+| `aic_estimation.m`  | Implements the AIC criterion                |
+| `gap_estimation.m`  | Implements the natural separation criterion  |
+| `mdl_estimation.m`  | Implements the MDL criterion                |
+| `music.m`           | Implementation of the MUSIC algorithm        |
