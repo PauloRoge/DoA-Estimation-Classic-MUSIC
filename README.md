@@ -1,6 +1,6 @@
 # Classic-MUSIC
 
-This repository contains the implementation of the **MUSIC (Multiple Signal Classification)** algorithm for estimating the Angle of Arrival (AoA) in MIMO systems. Classic MUSIC assumes that the number of sources is known a priori; therefore, in this project, we implemented criteria to estimate it.
+A localization technique based on the spatial decomposition of the covariance matrix of the received signals, which performs an exhaustive grid search in the angular domain to locate peaks in the pseudo-spectrum. Classic MUSIC assumes that the number of sources is known a priori; therefore, in this project, we implemented criteria to estimate it.
 
 ## 📌 Features
 - Antenna Array Design: ULA.
