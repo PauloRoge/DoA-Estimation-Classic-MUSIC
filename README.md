@@ -6,7 +6,7 @@ The **MUSIC (Multiple Signal Classification)** algorithm is a localization techn
 - Antenna Array Design: ULA.
 - Scenario: Free space with Line-of-Sight.
 - System: MIMO, M-MIMO.
-- Steering vector: taylor approximation.
+- Steering vector: Taylor approximation.
 
 ## 📌 File Description
 
