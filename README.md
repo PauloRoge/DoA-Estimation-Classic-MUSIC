@@ -1,6 +1,6 @@
 # Classic-MUSIC
 
-The **MUSIC (Multiple Signal Classification)** algorithm is a localization technique based on the spatial decomposition of the covariance matrix of the received signals. It performs an exhaustive grid search in the angular domain to identify peaks in the pseudo-spectrum. Classic MUSIC assumes that the number of sources is known a priori; therefore, in this project, we implemented criteria to estimate it.
+The MUSIC (Multiple Signal Classification) algorithm is a localization technique based on the spatial decomposition of the covariance matrix of the received signals. It performs an exhaustive grid search in the angular domain to identify peaks in the pseudo-spectrum. Classic MUSIC assumes that the number of sources is known a priori; therefore, in this project, we implemented criteria to estimate it.
 
 ## 📌 Features
 - Antenna Array Design: ULA.
