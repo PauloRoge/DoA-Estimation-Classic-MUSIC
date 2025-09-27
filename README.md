@@ -15,9 +15,8 @@ The **MUSIC (Multiple Signal Classification)** algorithm is a localization techn
 | `main.m`            | Main script for the MUSIC algorithm          |
 | `signals.m`         | Generates/processes signals                  |
 | `responsearray.m`   | Defines the array response matrix            |
-| `aic_estimation.m`  | Implements the AIC criterion                |
+| `aic_estimation.m`  | Implements the AIC criterion                 |
 | `gap_estimation.m`  | Implements the natural separation criterion  |
-| `mdl_estimation.m`  | Implements the MDL criterion                |
 | `music.m`           | Implementation of the MUSIC algorithm        |
 
 ## 📌 Visualization
