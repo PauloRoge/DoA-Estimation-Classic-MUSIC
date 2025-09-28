@@ -1,0 +1,18 @@
+# Arquivo: CITATION.cff
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "DoA-Estimation-Classic-MUSIC"
+version: "0.1.0"
+date-released: 2025-09-28
+authors:
+  - family-names: "Candido Junior"
+    given-names: "Paulo Rogério Alfredo"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # substitua pelo seu ORCID se tiver
+repository-code: "https://github.com/PauloRoge/DoA-Estimation-Classic-MUSIC"
+license: "MIT"
+keywords:
+  - "Direction of Arrival"
+  - "MUSIC Algorithm"
+  - "Array Signal Processing"
+  - "ULA"
+  - "MATLAB"
